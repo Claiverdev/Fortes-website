@@ -14,7 +14,7 @@
 
  }
 
- .container1 {
+ .cabecalho {
      max-width: 1700px;
      height: 98px;
      padding-top: 5px;
@@ -25,7 +25,7 @@
      align-items: center;
  }
 
- .container1 .logo {
+ .cabecalho .logo {
      width: 40%;
 
  }
@@ -118,29 +118,19 @@
     height: 84.9%;
     align-items: center;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
-
 }
-
- .container {
-     background-color: #fff;
-     border-radius: 10px;
-     padding: 30px;
-     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-     width: 800px;
- }
 
  h1 {
      color: #0056b3;
      /* Azul */
      text-align: center;
-     margin-bottom: 30px;
+     margin-bottom: 20px;
  }
 
- .form-group {
-     margin-bottom: 20px;
+ td{
+    width: 50%;
  }
 
  label {

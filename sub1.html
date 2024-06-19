@@ -10,7 +10,7 @@
 
 <body>
   <header>
-    <div class="container1">
+    <div class="cabecalho">
       <a href="index.html">
         <img class="logo" src="imagens/logo.png" alt="Logo Fortes Engenharia">
       </a>
@@ -26,31 +26,36 @@
   </header>
   <main>
     <h1>DADOS DA ORGANIZAÇÃO</h1>
+    <table>
     <form>
-      <div class="form-group">
+        <td>
+          <tr>
         <label for="nome-projeto" class="required">Nome Projeto</label>
         <input type="text" id="nome-projeto" placeholder="Ex.: Aquecendo Vidas">
-      </div>
-      <div class="form-group">
-        <label for="cnpj" class="required">CNPJ</label>
-        <input type="text" id="cnpj" placeholder="00.000.000/0000-00">
-      </div>
-      <div class="form-group">
-        <label for="cep" class="required">CEP</label>
-        <input type="text" id="cep" placeholder="00000-000">
-      </div>
-      <div class="form-group">
-        <label for="endereco" class="required">Endereço</label>
+        </tr>
+        <tr>
+          <label for="endereco" class="required">Endereço</label>
         <input type="text" id="endereco" placeholder="Ex.: Avenida Vitória">
-      </div>
-      <div class="form-group">
+        </tr>
+        <tr>
+          <label for="bairro" class="required">Bairro</label>
+        <input type="text" id="bairro" placeholder="Ex.: Ilha de Santa Maria">
+        </tr>
+      </td>
+      <td>
+        <tr>
+          <label for="cnpj" class="required">CNPJ</label>
+        <input type="text" id="cnpj" placeholder="00.000.000/0000-00">
+      </tr>
+      <tr>
         <label for="numero">Número</label>
         <input type="text" id="numero" placeholder="1234">
-      </div>
-      <div class="form-group">
-        <label for="bairro" class="required">Bairro</label>
-        <input type="text" id="bairro" placeholder="Ex.: Ilha de Santa Maria">
-      </div>
+      </tr>
+      <tr>
+        <label for="cep" class="required">CEP</label>
+        <input type="text" id="cep" placeholder="00000-000">
+      </tr>
+    </td>
       <div class="form-group">
         <label for="cidade" class="required">Cidade</label>
         <input type="text" id="cidade" placeholder="00.000.000/0000-00">
@@ -59,6 +64,9 @@
         <label for="uf" class="required">UF</label>
         <select id="uf">
           <option value="ES">ES</option>
+          <option value="ES">RJ</option>
+          <option value="ES">BA</option>
+          <option value="ES">SP</option>
         </select>
       </div>
       <div class="form-group">
@@ -79,6 +87,7 @@
             d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.707L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
         </svg></button>
     </form>
+  </table>
   </main>
 </body>
 
