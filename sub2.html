@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortes Engenharia - Fortificar</title>
+    <link rel="stylesheet" href="sub1.css">
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho">
+            <a href="index.html">
+                <img class="logo" src="imagens/logo.png" alt="Logo Fortes Engenharia">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="fortes.html" class="kj">A Fortes</a></li>
+                    <li><a href="projetos.html" class="kj">Projetos Apoiados</a></li>
+                    <li><a href="contato.html" class="kj">Contato</a></li>
+                    <li><a href="login.html" class="btn">Seu Projeto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+
+        <table>
+            <form>
+                <tr>
+                    <th colspan="3">
+                        <h1>DADOS DO RESPONSÁVEL DO PROJETO</h1>
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="nome-responsavel" class="required">Nome Do Responsável do Projeto</label>
+                        <input type="text" id="nome-responsável" placeholder="Ex.: Anderson Silva Aranha">
+                    </td>
+                    <td>
+                        <label for="cpf" class="required">CPF</label>
+                        <input type="text" id="cpf" placeholder="Ex.: 000.000.000-00">
+                    </td>
+                    <td>
+                        <label for="RG" class="required">RG</label>
+                        <input type="text" id="RG" placeholder="Ex.: 0.000.000">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="org" class="required">Orgão Expeditor</label>
+                        <input type="text" id="org" placeholder="Ex.: SESP">
+                    </td>
+                    <td>
+                        <label for="cargo">Cargo no Projeto</label>
+                        <input type="text" id="cargo" placeholder="ex.:Supervisor">
+                    </td>
+                    <td>
+                        <label for="mandato" class="required">Mandato Vigente Até:</label>
+                        <input type="text" id="mandato" placeholder="DD/MM/AAAA">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="uf" class="required">UF</label>
+                        <select id="uf">
+                            <option value="ES">ES</option>
+                            <option value="ES">RJ</option>
+                            <option value="ES">BA</option>
+                            <option value="ES">SP</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for="cidade" class="required">Cidade</label>
+                        <input type="text" id="cidade" placeholder="Ex.: Vila Velha">
+                    </td>
+                    <td>
+                        <label for="endereco" class="required">Endereço</label>
+                        <input type="text" id="endereco" placeholder="Ex.: Rua Guadalupe">
+                    </td>
+                    <td>
+                        <label for="numero" class="required">numero</label>
+                        <input type="text" id="numero" placeholder="Ex.: 1029">
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email" class="required">Email</label>
+                        <input type="email" id="email" placeholder="Ex.: exemplo@email.com">
+                    </td>
+                    <td>
+                        <label for="telefone-1" class="required">Telefone 1</label>
+                        <input type="tel" id="telefone-1" placeholder="(00)00000-0000">
+                    </td>
+                    <td>
+                        <label for="telefone-2" class="required">Telefone 2</label>
+                        <input type="tel" id="telefone-2" placeholder="(00)00000-0000">
+                    </td>
+                </tr>
+            </form>
+        </table>
+        <button type="submit">Avançar <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.707L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+            </svg>
+        </button>
+        <button type="submit">Voltar <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.707L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+        </svg>
+    </button>
+    </main>
+</body>
+
+</html>
