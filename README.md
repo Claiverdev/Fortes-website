@@ -1,8 +1,8 @@
 Grupo:
-Carlos André
-Carlos Daniel
-Claiver Correa
-Felipe Sobrinho
+Carlos André,
+Carlos Daniel,
+Claiver Correa,
+Felipe Sobrinho,
 Henrique Kutz
 
 
