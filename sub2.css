@@ -175,32 +175,24 @@
      font-weight: bold;
  }
 
- button {
-     background-color: #00c292;
-     /* Verde */
-     color: #fff;
-     border: none;
-     padding: 10px 20px;
-     border-radius: 5px;
-     cursor: pointer;
-     transition: background-color 0.3s ease;
-     display: flex;
-     justify-content: center;
-     align-items: center;
- }
 
- button:hover {
-     background-color: #00a97c;
-     /* Verde mais escuro */
- }
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
 
- button svg {
-     margin-left: 10px;
- }
+.back-button {
+    background-color: #546de5;
+    color: white;
+}
 
- button[type="submit"]{
-    position: absolute;
-    right: 100px;
-    bottom: 20px;
-
- }
+.forward-button {
+    background-color: #19c98f;
+    color: white;
+}
